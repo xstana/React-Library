@@ -8,51 +8,51 @@ import {
   Button
 } from "reactstrap";
 
-const Bookentry = () => {
+const Kitapgiris = () => {
   return (
     <div className="jumbotron jumbotron-dark">
       <center>
-        <h1>New Book Entry</h1>
+        <h1>Yeni Kitap</h1>
       </center>
       <br />
       <InputGroup>
-        <InputGroupAddon addonType="prepend">Book Name</InputGroupAddon>
-        <Input placeholder="spiderman" />
+        <InputGroupAddon addonType="prepend">Kitap Adı</InputGroupAddon>
+        <Input placeholder="Spider Man 2" />
       </InputGroup>
       <br />
       <InputGroup>
-        <InputGroupAddon addonType="prepend">Author</InputGroupAddon>
+        <InputGroupAddon addonType="prepend">Yazar</InputGroupAddon>
         <Input placeholder="Stan Lee" />
       </InputGroup>
       <br />
       <InputGroup>
-        <InputGroupAddon addonType="prepend">Publisher</InputGroupAddon>
-        <Input placeholder="spider" />
+        <InputGroupAddon addonType="prepend">Yayın Evi</InputGroupAddon>
+        <Input placeholder="Epsilon" />
       </InputGroup>
       <br />
       <Row>
         <Col>
           <InputGroup>
-            <InputGroupAddon addonType="prepend">No of page</InputGroupAddon>
-            <Input placeholder="" />
+            <InputGroupAddon addonType="prepend">Sayfa Sayısı</InputGroupAddon>
+            <Input placeholder="356" />
           </InputGroup>
           <br />
         </Col>
         <Col>
           <InputGroup>
-            <InputGroupAddon addonType="prepend">Serial no</InputGroupAddon>
-            <Input placeholder="" />
+            <InputGroupAddon addonType="prepend">Seri Numarası</InputGroupAddon>
+            <Input placeholder="13 hane " />
           </InputGroup>
         </Col>
       </Row>
       <br />
       <Button color="danger" block>
         {" "}
-        Add{" "}
+        Ekle{" "}
       </Button>
       <br />
     </div>
   );
 };
 
-export default Bookentry;
+export default Kitapgiris;
