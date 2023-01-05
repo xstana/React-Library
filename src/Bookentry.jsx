@@ -12,35 +12,35 @@ const Bookentry = () => {
   return (
     <div className="jumbotron jumbotron-dark">
       <center>
-        <h1>New Book Entry</h1>
+        <h1>Yeni Kitap</h1>
       </center>
       <br />
       <InputGroup>
-        <InputGroupAddon addonType="prepend">Book Name</InputGroupAddon>
+        <InputGroupAddon addonType="prepend">Kitap Adı</InputGroupAddon>
         <Input placeholder="spiderman" />
       </InputGroup>
       <br />
       <InputGroup>
-        <InputGroupAddon addonType="prepend">Author</InputGroupAddon>
+        <InputGroupAddon addonType="prepend">Yazar</InputGroupAddon>
         <Input placeholder="Stan Lee" />
       </InputGroup>
       <br />
       <InputGroup>
-        <InputGroupAddon addonType="prepend">Publisher</InputGroupAddon>
+        <InputGroupAddon addonType="prepend">Yayın Evi</InputGroupAddon>
         <Input placeholder="spider" />
       </InputGroup>
       <br />
       <Row>
         <Col>
           <InputGroup>
-            <InputGroupAddon addonType="prepend">No of page</InputGroupAddon>
+            <InputGroupAddon addonType="prepend">Sayfa Sayısı</InputGroupAddon>
             <Input placeholder="" />
           </InputGroup>
           <br />
         </Col>
         <Col>
           <InputGroup>
-            <InputGroupAddon addonType="prepend">Serial no</InputGroupAddon>
+            <InputGroupAddon addonType="prepend">Seri Numarası</InputGroupAddon>
             <Input placeholder="" />
           </InputGroup>
         </Col>
@@ -48,7 +48,7 @@ const Bookentry = () => {
       <br />
       <Button color="danger" block>
         {" "}
-        Add{" "}
+        Ekle{" "}
       </Button>
       <br />
     </div>
