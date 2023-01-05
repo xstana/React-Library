@@ -1,2 +1,1 @@
-# React-Library
-Created with CodeSandbox
+React.js library managament system vize ödevi
