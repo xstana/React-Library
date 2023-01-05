@@ -8,7 +8,7 @@ import {
   Button
 } from "reactstrap";
 
-const Bookentry = () => {
+const Kitapgiris = () => {
   return (
     <div className="jumbotron jumbotron-dark">
       <center>
@@ -17,7 +17,7 @@ const Bookentry = () => {
       <br />
       <InputGroup>
         <InputGroupAddon addonType="prepend">Kitap Adı</InputGroupAddon>
-        <Input placeholder="spiderman" />
+        <Input placeholder="Spider Man 2" />
       </InputGroup>
       <br />
       <InputGroup>
@@ -27,21 +27,21 @@ const Bookentry = () => {
       <br />
       <InputGroup>
         <InputGroupAddon addonType="prepend">Yayın Evi</InputGroupAddon>
-        <Input placeholder="spider" />
+        <Input placeholder="Epsilon" />
       </InputGroup>
       <br />
       <Row>
         <Col>
           <InputGroup>
             <InputGroupAddon addonType="prepend">Sayfa Sayısı</InputGroupAddon>
-            <Input placeholder="" />
+            <Input placeholder="357" />
           </InputGroup>
           <br />
         </Col>
         <Col>
           <InputGroup>
             <InputGroupAddon addonType="prepend">Seri Numarası</InputGroupAddon>
-            <Input placeholder="" />
+            <Input placeholder="13 hane " />
           </InputGroup>
         </Col>
       </Row>
@@ -55,4 +55,4 @@ const Bookentry = () => {
   );
 };
 
-export default Bookentry;
+export default Kitapgiris;

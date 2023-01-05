@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.css";
-import Bookentry from "./Bookentry";
+import Kitapgiris from "./Kitapgiris";
 import Tablelist from "./Tablelist";
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
     <Container>
       <Row>
         <Col>
-          <Bookentry />
+          <Kitapgiris />
         </Col>
 
         <Col>
