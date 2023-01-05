@@ -34,7 +34,7 @@ const Kitapgiris = () => {
         <Col>
           <InputGroup>
             <InputGroupAddon addonType="prepend">Sayfa Sayısı</InputGroupAddon>
-            <Input placeholder="357" />
+            <Input placeholder="356" />
           </InputGroup>
           <br />
         </Col>
